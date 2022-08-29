@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Monserrat", sans-serif;
+}
+
+.header-wrapper {
+	background-color: #fffbfe;
+	color: #013e77;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 100px;
+}
+
+.center-column {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 42px;
+	width: 500px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-2 {
+	border-radius: 15px;
+}
+
+.logo img {
+	width: 216px;
+}
+
+.link-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-link {
+	width: 70px;
+	text-align: center;
+}
+
+.link-wrapper a {
+	color: #013e77;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+.link-wrapper a:hover {
+	color: #ffb870;
+	letter-spacing: 1px;
+	transform: scale(1.2);
+}
+
+.icon {
+	font-size: 2em;
+}
+
+.homepage {
+	background-image: url(assets/vlah-dumitru-FvmwloIbCeQ-unsplash.jpg);
+	padding: 100px;
+	height: 300px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.top-heading {
+	background-color: #2b3641;
+	color: #fffbfe;
+	width: 500px;
+	border-radius: 5px;
+	padding: 1px 20px;
+	font-size: 2rem;
+}
+
+.features-section {
+	height: 400px;
+	background-image: url(assets/kayak-multiple.png);
+	background-color: #013e77;
+	border-top: 10px solid #fff;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	box-shadow: inset 0px -25px 79px -8px rgba(0, 0, 0, 0.58);
+	border-bottom: 10px solid #fff;
+}
+
+.columns-wrapper {
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 20px;
+	margin: 42px;
+	text-align: center;
+	border-bottom: 5px solid transparent;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.column:hover {
+	border-bottom: 5px solid #fff;
+}
+
+.column :nth-child(1) {
+	font-size: 3em;
+}
+
+.column :nth-child(2) {
+	font-size: 1.5em;
+	font-weight: 900;
+	height: 50px;
+}
+
+.column :nth-child(2):hover {
+}
+
+.column :nth-child(3) {
+	letter-spacing: 2px;
+}
+
+.footer {
+	background-color: #fffbfe;
+	color: #2b3641;
+	display: flex;
+	justify-content: space-around;
+}
